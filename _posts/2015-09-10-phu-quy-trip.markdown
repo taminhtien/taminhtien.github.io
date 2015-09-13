@@ -177,7 +177,7 @@ Tạm biệt các anh lính, tụi nó trở về nhà ăn cơm nghỉ ngơi r�
 
 24h00, tàu chạy, tạm biệt Phú Quý, hẹn gặp lại vào một ngày không xa. Lên tàu mà cảm thấy lo lắng, trời đen như mực, lênh đênh trên biển 120km chỉ mong về tới đất liền an toàn. Tàu lắc qua lắc lại, lên rồi xuống, giờ mới thấm thía cảnh đi tàu trong gió bão :cry:. Tự nhiên muốn quay về Phú Quý :joy:.
 
-### Về nhà
+### :laughing: Về nhà
 
 Ơn giời, vật vã 12 tiếng đi xe cuối cùng cũng về tới nhà. Nguyên một ngày ở trọng trạng thái ngáo sóng, người cứ lâng lâng. Thật không thể tin được vừa vượt 120km biển trong đêm. Cũng may là mọi thứ đều ổn :cold_sweat::scream::scream:.
 
