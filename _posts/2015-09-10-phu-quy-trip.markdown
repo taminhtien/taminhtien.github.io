@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "Memo of Phu Quy trip"
-subtitle:   "Some memos of the Phu Quy trip where is located 120km from coast. My buddies and me experienced 4 exciting days in this island. It would be the final trip of my student life."
+title:      "Memories of Phu Quy trip"
+subtitle:   "Some memories of the Phu Quy trip where is located 120km from coast. My buddies and me experienced 4 exciting days in this island. Awesome!!!"
 date:       2015-09-10 12:00:00
 author:     "tientm"
 header-img: "img/IMG_0315.JPG"
@@ -11,7 +11,7 @@ header-img: "img/IMG_0315.JPG"
 
 ### :sunglasses: Xuất phát
 
-Cả năm rồi mới được đi du lịch lại với đám bạn thân. Trải qua một năm sóng gió với bao nhiêu lần bể kèo cuối cùng cũng sắp được phượt với tụi nó rồi :satisfied: Cái nhóm chi lạ bu bám nhau đến nỗi thiếu ai cũng không chịu đi. :grin::grin::grin:.
+Cả năm rồi mới được đi du lịch lại với đám bạn thân. Trải qua một năm sóng gió với bao nhiêu lần bể kèo cuối cùng cũng sắp được phượt với tụi nó rồi :satisfied:. Cái nhóm chi lạ bu bám nhau đến nỗi thiếu ai cũng không chịu đi. :grin::grin::grin:.
 
 Nhây đến 2h chiều thì chuẩn bị đồ đạc bắt xe bus ra bến xe miền đông. Hành trình đến Phú Quý xa vcđ, nhất là chuyến tàu 6 tiếng ra đảo. Nghe người ta hù mà xanh mật, mình thì k sao chứ lo cho 2 đứa con gái, sợ tụi nó say thì tới đảo lại nằm nhà không cho mình đi chơi :satisfied:.
 
@@ -41,7 +41,7 @@ Tới Phan Thiết, cả bọn ghé nhà c Trang lấy vé tàu, sau đó check-
 
 ### :sunny: Ngày đầu tiên (CN, 6/9/2015)
 
-10h sáng, sau khi làm 3 cữ ngủ lăn lóc thì tàu đã đến Phú Quý, mừng gì đâu :) Không ai say tàu cả, cũng nhờ hôm nay biển lặng nên tàu chạy êm :3.
+10h sáng, sau khi làm 3 cữ ngủ lăn lóc thì tàu đã đến Phú Quý, mừng gì đâu :blush: Không ai say tàu cả, cũng nhờ hôm nay biển lặng nên tàu chạy êm :smile:.
 
 ![](/img/IMG_0235.JPG)
 <center><i>Cô nàng sau khi ngủ như chết thì than vãn là chụp hình không chịu kêu ả, vậy là chụp cho 1 bức cho hết kêu nhé :muscle:</i></center>
@@ -50,9 +50,9 @@ Sau khi nghỉ ngơi uống nước mía thì cô chủ homestay đến rước,
 
 Cảm nhận đầu tiên về đảo là sao vắng tanh như chùa bà Đanh z :neutral_face:, đường phố vắng bóng người, cứ như lạc vào đảo hoang vậy :triumph::mask:.
 
-Về nhà nghỉ ngơi, tắm rửa, cơm nước cô chủ đã chuẩn bị sẵn. Thức ăn toàn là cá :satisfied:. Cá nục nấu chua (nấu bằng cái lá gì lạ quắc mà vừa đắng vừa chua :satisfied:) và cá gì đó chiên. Cá nhân mình thấy rất ngon (chắc tại mình dễ ăn :yum:), nước chấm là mắm me, tuyệt cmn vời, món nước chấm huyền thoại của dân biển :smile::smile::smile:.
+Về nhà nghỉ ngơi, tắm rửa, cơm nước cô chủ đã chuẩn bị sẵn. Thức ăn toàn là cá :satisfied:. Cá nục nấu chua (nấu bằng cái lá gì lạ quắc mà vừa đắng vừa chua :satisfied:) và cá gì đó chiên. Cá nhân mình thấy khá ngon (chắc tại mình dễ ăn :yum:), nước chấm là mắm me, tuyệt cmn vời, món nước chấm huyền thoại của dân biển :smile::smile::smile:.
 
-Ăn uống xong ngủ một giấc, chiều ra bờ kè sau nhà chơi, ngắm biển, đi dạo 1 vòng đường 27/4, ghé quán Ông Già ăn tối, đồ ăn khá là rẻ, mặc dù có vài món không có. Khoái nhất là ăn ghẹ và cá mú :sweat_smile:
+Ăn uống xong ngủ một giấc, chiều ra bờ kè sau nhà chơi, ngắm biển, đi dạo 1 vòng đường 27/4, ghé quán Ông Già ăn tối, đồ ăn khá là rẻ, mặc dù có vài món không có. Khoái nhất là ăn ghẹ và cá mú :sweat_smile:.
 
 ![](/img/IMG_0270.JPG)
 <center><i>Bờ kè sau nhà</i></center>
@@ -65,10 +65,12 @@ Về nhà nghỉ ngơi, tắm rửa, cơm nước cô chủ đã chuẩn bị s�
 
 ![](/img/IMG_0300.JPG)
 
-> Kết thúc ngày đầu tiên có một vài nhận xét về người dân đảo Phú Qúy như ri:
-  - Ăn ngọt, tất cả đồ ăn đều có vẻ ngọt.
-  - Giọng địa phương giống giống giọng Phú Yên, rất khó nghe, lâu lâu lại sài tiếng địa phương nghe chả hiểu gì ráo :weary:.
-  - Có vẻ vắng vẻ, cảm giác như chỉ có 5 khách du lịch duy nhất trên đảo này :triumph::triumph::triumph:.
+![](/img/IMG_0303.JPG)
+
+> Kết thúc ngày đầu tiên có một vài nhận xét về người dân đảo Phú Qúy như ri:<br>
+- Ăn ngọt, tất cả đồ ăn đều có vẻ ngọt.<br>
+- Giọng địa phương giống giống giọng Phú Yên, rất khó nghe, lâu lâu lại sài tiếng địa phương nghe chả hiểu gì ráo :weary:.<br>
+- Có vẻ vắng vẻ, cảm giác như chỉ có 5 khách du lịch duy nhất trên đảo này :triumph::triumph::triumph:.<br>
 
 ### :dash: Ngày thứ hai (T2, 7/9/2015)
 
@@ -125,7 +127,16 @@ Sau khi chén no say thì được anh chủ bè dẫn ra Mộ Thầy tham quan.
 
 9h sáng, sau khi nhây một hồi tắm rửa giặt đồ các kiểu thì cả đám kéo lên chùa Linh Sơn. Tại đây có thể thấy một nửa hòn đảo. Đường lên chùa rất dốc và có thể đi được bằng xe máy. Trong 3 chiếc xe máy thì xe mình khỏe nhất, có thể chở được bạn D mập lên núi :muscle:. Leo khoảng 25-30 bậc thang là đã lên tới chùa rồi. Lúc này các sư thầy đang làm tụng kinh nên cả đám kéo lên đỉnh núi chơi. Ở đỉnh núi có một bức tượng Bồ Tát rất to, hi vọng Bà linh để nguyện vọng năm nay của mình thành hiện thực :pray::pray::pray:.
 
-Thắp nhang xong thì nhóm đi về, chuẩn bị thuê thuyền ra Hòn Đen tắm biển. Hòn Đen đen thui thùi lùi và toàn là đá, vắng bóng thực vật, chỉ toàn rong rêu mà thôi :relieved: Tàn tích của núi lửa này tạo thành một vòng cung và ở giữa là một hang động. Vì không biết bơi và sợ ma nên chỉ chơi ở ngoài. Một kỉ niệm đáng nhớ nữa là tập bơi cho bạn Duyên :joy: Thiệt tình chưa thấy ai bơi mà vất vả như vậy, "- Aaaaaaa, t k cân bằng được!", "- Chắc tại m không có đuôi :laughing::joy:". Cảm thấy thật độc ác khi mình đã dìm nước ẻm, may mà k khóc :smile:
+![](/img/IMG_0605.JPG)
+<center><i>Quang cảnh trên đỉnh núi :laughing:</i></center>
+
+Thắp nhang xong thì nhóm đi về, chuẩn bị thuê thuyền ra Hòn Đen tắm biển. Hòn Đen đen thui thùi lùi và toàn là đá, vắng bóng thực vật, chỉ toàn rong rêu mà thôi :relieved:. Tàn tích của núi lửa này tạo thành một vòng cung và ở giữa là một hang động. Vì không biết bơi và sợ ma nên chỉ chơi ở ngoài. Một kỉ niệm đáng nhớ nữa là tập bơi cho bạn Duyên :joy:. Thiệt tình chưa thấy ai bơi mà vất vả như vậy, "- Aaaaaaa, t k cân bằng được!", "- Chắc tại m không có đuôi :laughing::joy:". Cảm thấy thật độc ác khi mình đã dìm nước ẻm, may mà k khóc :smile:.
+
+![](/img/honden1.jpg)
+
+![](/img/honden2.jpg)
+
+![](/img/honden3.jpg)
 
 Tắm thoả thuê xong tụi nó gọi thuyền về đảo. Nghỉ ngơi giặt giũ xong nấu mì tôm trứng ăn rồi nghỉ ngơi. Chiều lại kéo đi hóng gió ở Vịnh Triều Dương sau đó ăn bánh xèo. Phải nói đây là món ăn đầu tiên đậm chất Phú Quý nhất. Nó khá lạ với món nước chấm + cách ăn. Ăn với trứng gà or trứng vịt chín. Trộn với nước chấm cả tô rồi nhúng bánh xèo vào ăn :yum:.
 
@@ -133,15 +144,32 @@ Tắm thoả thuê xong tụi nó gọi thuyền về đảo. Nghỉ ngơi giặ
 
 20h00, về homestay và nhờ cô chủ mua khô mực và khô cá nhâm nhi vài lon. Cô rất nhiệt tình, dù đã muộn nhưng vẫn giúp tụi nó làm món. Mặc dù món mực có vẻ chưa chín nhưng mà rốt cuộc vẫn quất hết :neutral_face: Uống có 4 lon thôi mà thấy tưng tưng cmnr. Cũng chẳng vui mấy vì bạn D bỗng dưng lại xụ đi ngủ sớm mất cả tiếng cười. :sob::sob::sob:.
 
+![](/img/IMG_0676.JPG)
+<center><i>Cá cắc kè :grinning:</i></center>
+
 23h00, kết thúc buổi tiệc nhỏ, ngồi bấm đt và viết blog. Gặm nhấm tin buồn nửa đêm ngày mai mới có tàu về Phan Thiết. Đi giờ ác ôn vậy trời, nhưng mà không sao được chơi thêm 1 ngày nữa :stuck_out_tongue:.
 
-### Ngày thứ tư (T4, 9/9/2015)
+### :smiling_imp: Ngày thứ tư (T4, 9/9/2015)
 
 Hôm nay là ngày cuối cùng ở đảo rồi. Kết thúc cuộc hành trình 4 ngày 3 đêm. Một cuộc hành trình đầy trải nghiệm và thú vị. Chưa bao giờ tụi nó đi xa và lâu đến như vậy. Một phần cũng vì thời tiết và lịch tàu thay đổi. Đến ngày cuối bỗng dưng lại không muốn về trong khi ngày hôm trước lại chỉ muốn bơi về đất liền vì nhớ SG :persevere::persevere:.
 
 8h00, thức dậy sau 1 đêm say bia, nhóm di chuyển khỏi homestay và đi ăn sáng. Vẫn nhớ gương mặt bạn Duyên, người không giấu được cảm xúc :sweat_smile::trollface:. Bực tức gì là hiện hết ra khuôn mặt :weary: Mất vài chục phút sau mới vui vẻ lại được. Công nhận ẻm không cười không khí nó nhạt thật :tired_face::tired_face:.
 
-Sau khi ăn sáng thì tụi nó đi leo núi Cấm nơi có 2 công trình là Đuốc Bác + Hải Đăng. Đuốc Bác là một công trình với một cây đuốc lớn và một bức tượng Bác Hồ, ghi nhận công sức của các tổ chức, cá nhân đã góp phần xây dựng công trình. Hải đăng giống như một ngôi nhà lớn với 3, 4 tầng gì đó. Nói chung là trước giờ chưa thấy hải đăng nên khi thấy hải đăng này thì khá hụt hẫng. Cứ tưởng cái tháp cao lắm chứ ai dè như cái nhà cao tầng vậy :expressionless:. Mặc dù vậy, đây là nơi cao nhất của đảo. Tại đây bạn có thể nhìn thấy toàn bộ đảo. Từ Hòn Đen, Hòn Đỏ đến Hòn Tranh, các làng chài, các ngọn núi, các con đường của đảo...
+![](/img/IMG_0683.JPG)
+<center><i>Mặt siêu hờn nhé :smile:</i></center>
+
+Sau khi ăn sáng thì tụi nó đi leo núi Cấm nơi có 2 công trình là Đuốc Bác + Hải Đăng. Đuốc Bác là một công trình với một cây đuốc lớn và một bức tượng Bác Hồ, ghi nhận công sức của các tổ chức, cá nhân đã góp phần xây dựng công trình. Hải đăng giống như một ngôi nhà lớn với 3, 4 tầng gì đó. Nói chung là trước giờ chưa thấy hải đăng nên khi thấy hải đăng này thì khá hụt hẫng. Cứ tưởng cái tháp cao lắm chứ ai dè như cái nhà cao tầng vậy :expressionless:. Mặc dù vậy, đây là nơi cao nhất của đảo. Tại đây bạn có thể nhìn thấy toàn bộ đảo. Từ Hòn Đen, Hòn Đỏ đến Hòn Tranh, các làng chài, các ngọn núi, các con đường của đảo. Vì không được mang đt nên không chụp được cái j cả :tired_face::tired_face:.
+
+![](/img/haidang1.jpg)
+<center><i>Đường lên hải đăng</i></center>
+
+![](/img/haidang2.jpg)
+<center><i>Mệt mà cứ bắt chụp hình :angry::angry:</i></center>
+
+![](/img/haidang3.jpg)
+
+![](/img/IMG_0712.JPG)
+<center><i>Mặt siêu điêu :mask::mask:</i></center>
 
 Tạm biệt các anh lính, tụi nó trở về nhà ăn cơm nghỉ ngơi rồi chiều xuống đi uống cafe ở cf Mộc Nguyên bên cạnh chùa Linh Sơn. Đi qua con đường toàn mộ không thấy ơn ớn :fearful::fearful:. Không gian quán khá đẹp, nhiều cây cối nhưng lại vắng hoe :fearful:.
 
@@ -156,6 +184,11 @@ Tạm biệt các anh lính, tụi nó trở về nhà ăn cơm nghỉ ngơi r�
 Như một hậu quả tất yếu của một chuyến du hí dài ngày thì lúc này đây vẫn chưa thể trở về với công việc thường ngày :sleepy:, vẫn nhớ Phú Quý, nhớ đám bạn, nhớ những ngày ăn chơi không suy nghĩ. Chợt nhớ đến sitcom Friends, giá mà cả đám cũng ở chung một căn hộ với 2 phòng đối diện vậy chắc sẽ vui lắm. Không biết kết bài sao dùng lời bài hát "I'll be there for you", ost Friends vậy :grin::grin:.
 
 
->I'll be there for you, when the rain starts to pour<br>I'll be there for you, like I've been there before<br>I'll be there for you, 'cuz you're there for me too...
-
-<div align="right"><b>Tạ Minh Tiên, 13/09/2015.</b></div>
+>I'll be there for you, when the rain starts to pour<br>
+I'll be there for you, like I've been there before<br>
+I'll be there for you, 'cuz you're there for me too<br>
+No one could ever know me, no one could ever see me<br>
+Seems you're the only one who knows what's like to be me<br>
+Someone to face the day with, make it through all the mess with<br>
+Someone I'll always laugh with<br>
+Even at my worst, I'm best with you
