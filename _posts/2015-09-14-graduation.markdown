@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      "Graduation"
-subtitle:   "I'm going to graduate in next month. I got a good of degree with 7.22 in final grade."
+subtitle:   "I'm going to graduate in next month. Finally, I have to go out of my university."
 date:       2015-09-14 12:00:00
 author:     "tientm"
 header-img: "img/graduation.jpg"
