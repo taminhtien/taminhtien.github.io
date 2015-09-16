@@ -1,0 +1,65 @@
+---
+layout:     post
+title:      "HTML5 and CSS3 notes"
+subtitle:   "Memo of HTML5 and CSS3"
+date:       2015-09-16 12:00:00
+author:     "tientm"
+header-img: "img/HTML5.png"
+---
+
+# Overview & Update
+# HTML5 Elements
+# HTML5 Forms
+# CSS3 Styles
+## Border Radius
+The border-radius property applies rounded corners to borders.
+
+```
+border-radius: <top left> <top right> <bottom right> <bottom left>
+```
+
+Example:
+
+```
+.box {
+  border-radius: 4px 15px 12px 10px;
+}
+```
+
+You can also specify the border-radius value in percentages.
+
+```
+.box {
+  border-radius: 50%;
+}
+```
+
+## Box Shadow
+The box-shadow property specifies a shadow on an element.
+
+```
+box-shadow: <inset> <offset-x> <offset-y> <blur-radius> <spread-radius> <color>
+```
+
+- inset: Optional. If it is not specified,  it will be set to default value is "drop shadow" rather than "inset shadown".
+- offset-x: The shadow offset x value, which is going to move the shadow along x-axis to left or right. If offset-x is positive, move to right. Otherwise move to left.
+- offset-y: The shadow offset y value, which is going to move the shadow along y-axis up or down. If offset-x is positive, move down. Otherwise move up.
+- blur-radius: Optional. It alters the blur amount of the shadow, causing it to become bigger or lighter with a large value. Default is the size of the element.
+- spread-radius: Optional. Causes the shadow to shrink or expand.
+- color: The color of shadow.
+
+```
+box-shadow: 1px 2px 0 2px #000;
+// inset is missing, so it will be set to default is drop shadow. 1px of offset-x, 2px of offset-y, 0px of blur-radius, 2px or spread-radius, #000 for the color of drop shadow.
+box-shadow: 1px 2px 2px #000;
+// blur-radius is 2px while spread radius is 0.
+```
+
+## Text Shadow
+## Box Sizing
+
+## Multiple Backgrounds
+## Color
+## Opacity
+## Gradients
+# Fonts & Interactions
