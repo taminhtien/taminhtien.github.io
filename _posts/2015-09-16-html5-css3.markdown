@@ -55,9 +55,80 @@ box-shadow: 1px 2px 2px #000;
 // blur-radius is 2px while spread radius is 0.
 ```
 
-## Text Shadow
-## Box Sizing
+Example of using inset:
 
+```
+box-shadow: inset 1px 2px 2px blue;
+// inset is shadow which dropping into inside element
+```
+
+## Text Shadow
+It is really similar to box-shadow but it applies the shadow to text, as the name implies.
+
+```
+text-shadow: <offset-x> <offset-y> <blur-radius> <color>
+```
+
+Example:
+
+```
+h1 {
+  text-shadow: 1px 2px 2px blue;
+}
+```
+
+## Box Sizing
+Box sizing is used to change default CSS box model, which used to calculate widths and heights of given element.
+
+Box model:
+- Box model references the design and layout of given HTML elements.
+- Each HTML element is a box consisting padding, borders, margins and its content.
+- The box model refers to how these properties are calculated in conjuction with one another in order to set the element's dimensions.
+
+<b>Box model refresher:</b> not include margins anymore because the margin isn't a part of the width.
+
+Example:
+
+```
+.box {
+	border: 2px solid black;
+	margin: 20px;
+	padding: 10px;
+	width: 300px;
+}
+// => size of the box: 300 + 20 + 4 = 324
+```
+
+Three values of box-sizing:
+- content-box: default value. The width and height are measured by including only the content, but not the border, margin, or padding.
+- padding-box: include padding, not the border or margin.
+- border-box: in clude padding, border, not the margin.
+
+Example of padding-box:
+
+```
+.box {
+	box-sizing: padding-box;
+	border: 2px solid black;
+	margin: 20px;
+	padding: 10px;
+	width: 300px; // included padding already, so the content is reduced to 280px
+}
+// => size of the box is 300(width) + 4(border) = 304
+```
+
+Example of border-box:
+
+```
+.box {
+	box-sizing: border-box;
+	border: 2px solid black;
+	margin: 20px;
+	padding: 10px;
+	width: 300px; // included padding and border already, so the content is reduced to 276px
+}
+// => size of the box is 300
+```
 ## Multiple Backgrounds
 ## Color
 ## Opacity
