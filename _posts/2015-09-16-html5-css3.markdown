@@ -124,7 +124,7 @@ Example usage of padding-box:
 // => size of the box is 300(width) + 4(border) = 304
 ~~~
 
-Example usage of border-box:	
+Example usage of border-box:
 
 ~~~
 .box {
@@ -139,10 +139,106 @@ Example usage of border-box:
 
 ## Multiple Backgrounds
 
+CSS3 allows you to apply multiple background on an element. They are stacked in the order in which you specify them.
+
+~~~
+.element {
+  background-image: url(bg1.jpg), url(bg2.jpg);
+  background-position: top left, center right;
+  background-repeat: no-repeat, no-repeat;
+}
+~~~
+
+Shorthand:
+
+~~~
+.element {
+  background:
+    url(bg1.jpg) top left no-repeat,
+    url(bg2.jpg) top right no-repeat;
+}
+~~~
+
 ## Color
+
+- RGBa: represents red, green, blue colors and the opacity of the color.
+- HSLa: represents the hue, saturation, lightness and opacity of the color.
+
+Example of usage RGBa
+
+~~~
+.element {
+  color: rgba(0, 0, 0, 0.75);
+}
+~~~
 
 ## Opacity
 
+The opacity is the transparency of an element.
+
+~~~
+.element {
+  opacity: 0.45; // means 45% opaque
+}
+~~~
+
 ## Gradients
+
+CSS3 provides the ability to create gradients, smooth transitions between two or more colors.
+
+- Linear gradient: need to specify: starting point, ending point, optional stop-color points.
+- Radial gradient: creates a gradient that extends from an origin, the center of the element, extending outward in a circular or elliptical shape.
+
+The radial gradient consists of:
+
+- The center
+- The ending shape contour and position
+- Color stops
+
+Linear Gradient Recipe:
+
+~~~
+linear-gradient(<angle> to <side-or-corner>, <color-stop>s);
+~~~
+
+- *angle:* optional, is generally a degree (e.g. 45deg).
+- *side-or-cornor:* optional, consists two keywords: left or right and top or bottom.
+- *color-stop:* consists of a color and an optional stop position, which can be either the percentage or length.
+- *angle* and *side-or-corner* instead each others.
+
+Example of usage Linear gradient
+
+~~~
+.element {
+	background: linear-gradient(to bottom, red, yellow);
+	// no angle value
+	// to top = 0deg
+	// to bottom = 180deg
+	// to right = 270deg
+	// to left = 90deg
+}
+~~~
+
+Radial Gradient Recipe:
+
+~~~
+radial-gradient(<shape> <size> at <position>, <color-stop>s);
+~~~
+
+- *shape* or *size:* optional, specify the shape or size of the gradient
+	-	*shape* can be circle or ellipsis (default).
+	- *size*  can be a keyword in which "closest-side, closest-cornor, fasthest-side, fasthest-cornor (default)". The size can be a length or percentage.
+- *position:* optional, same as the background-position. Default is center.
+- *color-stop:* consists of a color and an optional stop position, which can be either the percentage or length.
+- *shape* and *size* instead each others.
+
+Example of usage Radial gradient
+
+~~~
+.element {
+	background: radius-gradient(circle at top left, aqua, blue);
+	// Because of shape appearance, size will be omit.
+}
+~~~
 
 # Fonts & Interactions
