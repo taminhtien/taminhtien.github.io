@@ -7,6 +7,8 @@ author:     "tientm"
 header-img: "img/english.jpg"
 ---
 
+## Vocabulary
+
 ||Words|Type|IPA|Meaning|
 |--|--|--|--|--|
 |C|Cramp|V, N|/kramp/|chuột rút|
@@ -18,7 +20,8 @@ header-img: "img/english.jpg"
 |N|Needle|N, V|/ˈnēdl/|kim, xỏ kim|
 |S|Suffrage|N|/ˈsəfrij/|quyền bỏ phiếu|
 
-# Slang
+## Slang
+
 ||Words|Type|IPA|Meaning|
 |--|--|--|--|--|
 |K|Fight|N|/fīt/|cuộc cãi vã|
