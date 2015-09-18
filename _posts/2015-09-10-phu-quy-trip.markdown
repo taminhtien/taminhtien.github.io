@@ -10,7 +10,7 @@ header-img: "img/IMG_0315.JPG"
 > Tác giả đã cố gắng viết một cách  hài hước và bựa nhất nhưng có vẻ không thành công. Nó giống một bài văn tự sự hơn cả :disappointed: :disappointed:. Lúc đầu tính viết review, nhưng có vẻ khó viết, thế là thành nhật ký hành trình. Nói chung là cũng chả biết đang viết cái thể loại gì nữa :sob::scream:.
 
 ### :sunglasses: Xuất phát
-
+---
 Cả năm rồi mới được đi du lịch lại với đám bạn thân. Trải qua một năm sóng gió với bao nhiêu lần bể kèo cuối cùng cũng sắp được phượt với tụi nó rồi :satisfied:. Cái nhóm chi lạ bu bám nhau đến nỗi thiếu ai cũng không chịu đi. :grin::grin::grin:.
 
 Nhây đến 2h chiều thì chuẩn bị đồ đạc bắt xe bus ra bến xe miền đông. Hành trình đến Phú Quý xa vcđ, nhất là chuyến tàu 6 tiếng ra đảo. Nghe người ta hù mà xanh mật, mình thì k sao chứ lo cho 2 đứa con gái, sợ tụi nó say thì tới đảo lại nằm nhà không cho mình đi chơi :satisfied:.
@@ -40,6 +40,7 @@ Tới Phan Thiết, cả bọn ghé nhà c Trang lấy vé tàu, sau đó check-
 <center><i>Chở cả bò lên đảo :ox: :trollface:</i></center>
 
 ### :sunny: Ngày đầu tiên (CN, 6/9/2015)
+---
 
 10h sáng, sau khi làm 3 cữ ngủ lăn lóc thì tàu đã đến Phú Quý, mừng gì đâu :blush: Không ai say tàu cả, cũng nhờ hôm nay biển lặng nên tàu chạy êm :smile:.
 
@@ -73,6 +74,7 @@ Về nhà nghỉ ngơi, tắm rửa, cơm nước cô chủ đã chuẩn bị s�
 - Có vẻ vắng vẻ, cảm giác như chỉ có 5 khách du lịch duy nhất trên đảo này :triumph::triumph::triumph:.<br>
 
 ### :dash: Ngày thứ hai (T2, 7/9/2015)
+---
 
 4h00, ngắm bình minh và tắm biển ở Gành Hang. Bờ biển rất đẹp, cát trắng, nước rất trong và quang cảnh vô cùng ấn tượng. Đặt biệt hơn nữa là chỉ có 5 đứa 1 bãi tắm :sweat_smile:. Tính không tắm mà ẻm Duyên loay hoay selfie xong té xuống nước cười mà rụng cả rún :laughing::laughing:. Xong lại ôm mặt khóc hu hu rồi xụ ra bắt cả bọn phải tắm mới hết hờn :laughing:. Thật là bó tay luôn :grin:.
 Tắm xong đi về mới được cô chủ cảnh báo bãi biển này khá sâu và có nhiều xoáy nước nguy hiểm nên không ai tắm cả, thật hư cấu :weary:.
@@ -124,6 +126,7 @@ Sau khi chén no say thì được anh chủ bè dẫn ra Mộ Thầy tham quan.
 <center><i>Mệt như cờ hó mà cứ bắt chụp :triumph:</i></center>
 
 ### :cloud: Ngày thứ ba (T3, 8/9/2015)
+---
 
 9h sáng, sau khi nhây một hồi tắm rửa giặt đồ các kiểu thì cả đám kéo lên chùa Linh Sơn. Tại đây có thể thấy một nửa hòn đảo. Đường lên chùa rất dốc và có thể đi được bằng xe máy. Trong 3 chiếc xe máy thì xe mình khỏe nhất, có thể chở được bạn D mập lên núi :muscle:. Leo khoảng 25-30 bậc thang là đã lên tới chùa rồi. Lúc này các sư thầy đang làm tụng kinh nên cả đám kéo lên đỉnh núi chơi. Ở đỉnh núi có một bức tượng Bồ Tát rất to, hi vọng Bà linh để nguyện vọng năm nay của mình thành hiện thực :pray::pray::pray:.
 
@@ -150,6 +153,7 @@ Tắm thoả thuê xong tụi nó gọi thuyền về đảo. Nghỉ ngơi giặ
 23h00, kết thúc buổi tiệc nhỏ, ngồi bấm đt và viết blog. Gặm nhấm tin buồn nửa đêm ngày mai mới có tàu về Phan Thiết. Đi giờ ác ôn vậy trời, nhưng mà không sao được chơi thêm 1 ngày nữa :stuck_out_tongue:.
 
 ### :smiling_imp: Ngày thứ tư (T4, 9/9/2015)
+---
 
 Hôm nay là ngày cuối cùng ở đảo rồi. Kết thúc cuộc hành trình 4 ngày 3 đêm. Một cuộc hành trình đầy trải nghiệm và thú vị. Chưa bao giờ tụi nó đi xa và lâu đến như vậy. Một phần cũng vì thời tiết và lịch tàu thay đổi. Đến ngày cuối bỗng dưng lại không muốn về trong khi ngày hôm trước lại chỉ muốn bơi về đất liền vì nhớ SG :persevere::persevere:.
 
@@ -178,6 +182,7 @@ Tạm biệt các anh lính, tụi nó trở về nhà ăn cơm nghỉ ngơi r�
 24h00, tàu chạy, tạm biệt Phú Quý, hẹn gặp lại vào một ngày không xa. Lên tàu mà cảm thấy lo lắng, trời đen như mực, lênh đênh trên biển 120km chỉ mong về tới đất liền an toàn. Tàu lắc qua lắc lại, lên rồi xuống, giờ mới thấm thía cảnh đi tàu trong gió bão :cry:. Tự nhiên muốn quay về Phú Quý :joy:.
 
 ### :laughing: Về nhà
+---
 
 Ơn giời, vật vã 12 tiếng đi xe cuối cùng cũng về tới nhà. Nguyên một ngày ở trọng trạng thái ngáo sóng, người cứ lâng lâng. Thật không thể tin được vừa vượt 120km biển trong đêm. Cũng may là mọi thứ đều ổn :cold_sweat::scream::scream:.
 

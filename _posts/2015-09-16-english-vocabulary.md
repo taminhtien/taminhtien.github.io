@@ -16,6 +16,7 @@ header-img: "img/english.jpg"
 |D|Degrate|V|/diˈgrād/|làm suy giảm|
 |F|Freckle|V, N|/ˈfrekəl/|tàn nhang|
 |I|Intuitive|Adj|/inˈt(y)o͞oitiv/|thuộc về trực giác|
+|I|Intact|Adj|/inˈtakt/|còn nguyên|
 |L|Lightness|N||sự trong sáng|
 |N|Needle|N, V|/ˈnēdl/|kim, xỏ kim|
 |S|Suffrage|N|/ˈsəfrij/|quyền bỏ phiếu|
