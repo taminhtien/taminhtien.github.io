@@ -97,10 +97,10 @@ Example:
 
 ~~~
 .box {
-	border: 2px solid black;
-	margin: 20px;
-	padding: 10px;
-	width: 300px;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 10px;
+  width: 300px;
 }
 // => size of the box: 300 + 20 + 4 = 324
 ~~~
@@ -115,11 +115,11 @@ Example usage of padding-box:
 
 ~~~
 .box {
-	box-sizing: padding-box;
-	border: 2px solid black;
-	margin: 20px;
-	padding: 10px;
-	width: 300px; // included padding already, so the content is reduced to 280px
+  box-sizing: padding-box;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 10px;
+  width: 300px; // included padding already, so the content is reduced to 280px
 }
 // => size of the box is 300(width) + 4(border) = 304
 ~~~
@@ -128,11 +128,11 @@ Example usage of border-box:
 
 ~~~
 .box {
-	box-sizing: border-box;
-	border: 2px solid black;
-	margin: 20px;
-	padding: 10px;
-	width: 300px; // included padding and border already, so the content is reduced to 276px
+  box-sizing: border-box;
+  border: 2px solid black;
+  margin: 20px;
+  padding: 10px;
+  width: 300px; // included padding and border already, so the content is reduced to 276px
 }
 // => size of the box is 300
 ~~~
@@ -164,12 +164,17 @@ Shorthand:
 - RGBa: represents red, green, blue colors and the opacity of the color.
 - HSLa: represents the hue, saturation, lightness and opacity of the color.
 
-Example of usage RGBa
+Example:
 
 ~~~
 .element {
   color: rgba(0, 0, 0, 0.75);
 }
+
+.tagline {
+  color: hsla(0, 0%, 100%, 0.65);
+}
+
 ~~~
 
 ## Opacity
@@ -210,12 +215,16 @@ Example of usage Linear gradient
 
 ~~~
 .element {
-	background: linear-gradient(to bottom, red, yellow);
-	// no angle value
-	// to top = 0deg
-	// to bottom = 180deg
-	// to right = 270deg
-	// to left = 90deg
+  background: linear-gradient(to bottom, red, yellow);
+  // no angle value
+  // to top = 0deg
+  // to bottom = 180deg
+  // to right = 270deg
+  // to left = 90deg
+}
+
+.nav {
+  background: linear-gradient(#3e606f, #324d59);
 }
 ~~~
 
@@ -226,8 +235,8 @@ radial-gradient(<shape> <size> at <position>, <color-stop>s);
 ~~~
 
 - *shape* or *size:* optional, specify the shape or size of the gradient
-	-	*shape* can be circle or ellipsis (default).
-	- *size*  can be a keyword in which "closest-side, closest-cornor, fasthest-side, fasthest-cornor (default)". The size can be a length or percentage.
+  - *shape* can be circle or ellipsis (default).
+  - *size*  can be a keyword in which "closest-side, closest-cornor, fasthest-side, fasthest-cornor (default)". The size can be a length or percentage.
 - *position:* optional, same as the background-position. Default is center.
 - *color-stop:* consists of a color and an optional stop position, which can be either the percentage or length.
 - *shape* and *size* instead each others.
@@ -236,9 +245,236 @@ Example of usage Radial gradient
 
 ~~~
 .element {
-	background: radius-gradient(circle at top left, aqua, blue);
-	// Because of shape appearance, size will be omit.
+  background: radius-gradient(circle at top left, aqua, blue);
+  // Because of shape appearance, size will be omit.
 }
 ~~~
 
 # Fonts & Interactions
+
+## Font Face
+
+Using @font-face, we have abitily to provide online fonts for use on our websites.
+
+Example:
+
+~~~
+@font-face {
+  font-family: "OpenSansRegular";
+  src: url('OpenSansRegular.eot');
+  font-style: normal;
+  font-weight: normal;
+}
+~~~
+
+Using @font-face in our stylesheet:
+
+~~~
+h1 {
+  font-family: 'OpenSansRegular';
+  // We specify font-family as the same one established in the @font-face call.
+}
+~~~
+
+Using @font-face in our stylesheet with fallback fonts:
+
+~~~
+h1 {
+  font-family: 'OpenSansRegular', Helventica, Arial, san-serif;
+  // We specify font-family as the same one established in the @font-face call.
+  // Specifies fallback fonts if chief font isn't supported
+}
+~~~
+
+Using varying weights with @font-face:
+
+~~~
+@font-face {
+  font-family: "OpenSansBold";
+  src: url('OpenSansBold.eot');
+  font-style: normal;
+  font-weight: normal;
+}
+
+h1 {
+  font-family: 'OpenSansBold';
+}
+~~~
+
+We can alter @font-face call in order to use font-style and font-weight properties as usual.
+
+~~~
+@font-face {
+  font-family: "OpenSansRegular";
+  src: url('OpenSansBold.eot');
+  font-style: normal;
+  font-weight: bold;
+}
+
+h1 {
+  font-weight: bold;
+}
+~~~
+
+## Transforms
+
+Using transform property in CSS3, we can translate, rotate, scale, skew element in CSS.
+
+### Translate
+
+You can create 2D transition using transform:
+
+~~~
+.element {
+  transform: translate(20px, 30px);
+  // Translate element 20px to the right
+  // Translate element 30px down.
+}
+~~~
+
+Recipe: 
+
+~~~
+translate(<tx> <ty>);
+// tx: x-axis, can be a length or percentage, if not specified, the value is 0
+// ty: y-axis, can be a length or percentage, if not specified, the value is 0
+~~~
+
+Moreover, you can use translateX or translateY to translate the x and y value individually:
+
+~~~
+.element {
+  transform: translateX(20px);
+  transform: translateY(30px);
+}
+~~~
+
+### Rotate 
+
+You can rotate an element clockwise around its origin by specified angle.
+
+~~~
+.element {
+  transform: rotate(45deg);
+}
+~~~
+
+### Scale
+
+With scale, you can scale an element by specified unitless number.
+
+Example:
+
+~~~
+.element {
+  transform: scale(1.2);
+}
+~~~
+
+Recipe:
+
+~~~
+scale(<sx>, <sy>);
+// <sx> and <sy> are unitless number for the x-axis and y-axis respectively.
+// If <sy> does not specify, it default to the value of <sx>.
+
+// You can also scale X and Y axis individually by:
+scaleX(<sx>);
+scaleY(<sy>);
+~~~
+
+### Skew
+
+With Skew, an element skewed around the x or y axis by the angle specified.
+
+Example:
+
+~~~
+.element {
+  transform: skewX(-25deg);
+}
+~~~
+
+Recipe:
+
+~~~
+// With the same specified element, you only skew by X or Y axis, not both.
+skewX(<sx>);
+skewY(<sy>);
+~~~
+
+## Transitions
+
+CCS3 provides transitions, which allow you to transition between two states of a specified element.
+
+~~~
+.element {
+  background-color: black;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.element:hover {
+  background-color: blue;
+}
+~~~
+
+Recipe:
+
+~~~
+transition: <property> <duration> <timing-function> <delay>
+
+- <property>: The property you want to transition
+- <duration>: The amount of time that you want the transition to take place
+- <timing-function>: The timing of the transition itself
+  - ease
+  - ease-in
+  - ease-in-out
+  - linear
+  - cubic-bezier
+  - step-start
+  - step-end
+  - steps()
+- <delay>: Time to wait between the change
+~~~
+
+You can set the transition values individually, as well:
+
+~~~
+.element {
+  transition-property: background-color;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0.1s;
+}
+~~~
+
+Example usage of transition using the all property:
+
+~~~
+.element {
+  background-color: black;
+  color: white;
+  transition: all 0.2s ease-in-out;
+}
+
+.element:hover {
+  background-color: gray;
+  color: black;
+}
+~~~
+
+## Progressive Enhancement
+
+The term "progressive enhancement" refers to the use of newer features that add to the experience in modern browsers that support those features, but doesn't detract (làm giảm) from the experience in older browsers.
+
+Example:
+
+~~~
+.element {
+  backgroud: #ccc;
+  border-radius: 10px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.75);
+}
+~~~
+
+If browsers support border-radius and box-shadow, your element will look good, unless, it is quite terrible but still usable. So, progressive enhancement is important to keep in mind because we want to make sure that we're creating experiences that degrate (làm giảm) gracefully for browsers that don't support a lot of features we've covered.

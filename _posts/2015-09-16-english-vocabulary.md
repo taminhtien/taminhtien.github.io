@@ -10,6 +10,8 @@ header-img: "img/english.jpg"
 ||Words|Type|IPA|Meaning|
 |--|--|--|--|--|
 |C|Cramp|V, N|/kramp/|chuột rút|
+|D|Detract|V|/diˈtrakt/|làm giảm|
+|D|Degrate|V|/diˈgrād/|làm suy giảm|
 |F|Freckle|V, N|/ˈfrekəl/|tàn nhang|
 |I|Intuitive|Adj|/inˈt(y)o͞oitiv/|thuộc về trực giác|
 |L|Lightness|N||sự trong sáng|
