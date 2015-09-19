@@ -14,11 +14,13 @@ header-img: "img/el.jpg"
 |C|Cramp|V, N|/kramp/|chuột rút|
 |D|Detract|V|/diˈtrakt/|làm giảm|
 |D|Degrate|V|/diˈgrād/|làm suy giảm|
+|E|Emerge|V|/iˈmərj/|hiện ra|
 |F|Freckle|V, N|/ˈfrekəl/|tàn nhang|
 |I|Intuitive|Adj|/inˈt(y)o͞oitiv/|thuộc về trực giác|
 |I|Intact|Adj|/inˈtakt/|còn nguyên|
 |L|Lightness|N||sự trong sáng|
 |N|Needle|N, V|/ˈnēdl/|kim, xỏ kim|
+|N|Negotiation|N|/nəˌgōSHēˈāSHən/|đàm phán|
 |S|Suffrage|N|/ˈsəfrij/|quyền bỏ phiếu|
 
 ## Slang
@@ -48,3 +50,18 @@ header-img: "img/el.jpg"
 |a casual acquaintance|bạn xã giao (biết mặt)|I don't know Rod well. We're just casual acquaintances.|
 |have a good relationship with someone|có mối giao hảo tốt với ai|Anna and Marie have a very good relationship.They love doing things together.|
 |keep in contact / touch|giữ liên lạc (phản nghĩa: lose contact / touch)|We must keep in contact when the course ends.|
+
+### Come
+
+|PV|Meaning|Vietnamese meaning|Example|
+|--|--|--|
+|come into|suddenly receive (money or property), especially by inheriting it|nhận tiền, tài sản thừa kế một cách bất ngờ|He came into a lot of money at a very early age, so he has never had to work.|
+|come along = be along|arrive|đến|We are going to the beach later. Would you like to come along?|
+|come across|To give an impression (thường đi với "as") trong nét nghĩa này|gây ấn tượng như thế nào|At first, he comes across as rather shy. But when you get to know him, you'll notice he has a hilarious sense of humor.|
+|come through|(of a message) be sent and received|được gửi hoặc được nhận (tin nhắn)|They were having problems with the ship's radio, so none of the messages came through clearly.|
+|come out|1. (of a fact) emerge; become known<br>2. (of a book or other work) appear; be released or published|hóa ra<br>xuất hiện, được phát hành|It came out that the accused had illegally registered to vote|
+|come away|be left with a specified feeling, impression, or result after doing something|có cảm giác, có ấn tượng sau khi làm việc gì đó|Although the negotiations lasted more than two weeks, the representatives came away feeling like they had accomplished nothing.|
+|come up with|produce (something), especially when pressured or challenged.|sản xuất, sáng tạo, cho ra lò cái gì đó|Evan came up with a great marketing strategy for their new product.|
+|come with||đi kèm với|The toy doesn't come with batteries. You have to buy them separately.|
+|come over|to come to a ​place, ​move from one ​place to another, or ​move towards someone|đến một địa điểm nhất định|Camille is coming over for dinner tonight.|
+|come off|become detached or be detachable from something|rời ra|When I tried to open the door, the knob came off in my hand and I was stuck in the room for more than two hours.|
