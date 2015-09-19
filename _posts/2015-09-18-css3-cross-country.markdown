@@ -346,8 +346,62 @@ Afxes an element to a specifc place in the window, where it will stay regardless
 
 __Manually adjusting overlap:__
 
-- No z-index or equal z-index = overlap determined by placement in DOM
+- No ```z-index``` or equal ```z-index``` = overlap determined by placement in DOM
 - Higher values appear above lower values
-- Elements must be positioned for z-index to take efect. Use relative if you're not interested in moving the object
+- Elements must be positioned for ```z-index``` to take efect. Use relative if you're not interested in moving the object
 
 Demo: _<http://codepen.io/tientm/pen/YyqoPY>_
+
+# Grooming Your Code
+---
+
+## Staying DRY
+
+__Selected CSS property shorthands:__
+
+~~~
+font: italic  bold    16px/18px         sans-serif;
+/*    style   weight  size/line-height  family */
+
+background: #000  url(image.jpg) no-repeat  center  top;
+/*          color image          repeat     x-pos   y-pos */
+
+list-style: disc  inside    none;
+/*          style position  image */
+
+margin or padding: 0   10px  0      10px / 0   10px       0      / 0          10px;
+/*                 top right bottom left / top right&left bottom / top&bottom right&left */
+
+border: 3px   solid #ccc;
+/*      width style color */
+~~~
+
+## Display Types
+
+__Display:__
+
+~~~
+display: none / block / inline / inline-block;
+~~~
+
+- Block element:
+  - Stretch the full width of their container
+  - Behave as though there is a line break before and after the element
+  - Full box model can be manipulated
+  - Tags that are block-level by default: ```<div>, <p>, <ul>, <ol>, <li> and <h1> through <h6>```
+- Inline elements:
+  - Typically found within block-level elements
+  - Only take up the space of the content inside
+  - Do not generate a line break before and after the content
+  - Tags that are inline by default include ```<span>, <a>, <em>, <img>, and <strong>```
+- Inline-block
+  - Same fow as an inline element but behave as a block element
+
+## Centering
+
+__Centering a block-level element:__
+
+- Defne a width, and the element width must be less than that of the parent container
+- ```margin: 0 auto;```
+
+__Centering inline and inline-block elements:__ ```text-align:center```
