@@ -4,7 +4,7 @@ title:      "Advanced CSS3"
 subtitle:   "Notes of CSS3 Crosscontry at Codeschool.com"
 date:       2015-09-18 12:00:00
 author:     "tientm"
-header-img: "img/css3.jpg"
+header-img: "img/css.png"
 ---
 
 # Frost-proof Fundamentals
