@@ -292,3 +292,62 @@ p { color: #fff !important; }           // !!!
  color: #777;
 }
 ~~~
+
+# Box Bindings
+---
+
+## The Box Model
+
+An imaginary diagram that outlines each DOM element:
+
+{: .center}
+![](/img/dom.png)
+
+__Width:__ 
+
+- Total calculated box width = content width + padding width + border width
+- When adapting a design, you'll need to calculate the content width
+
+__The overflow property:__
+
+~~~
+overflow: visible / auto / hidden / scroll;
+~~~
+
+- _visible:_ the default value, which allows element content extend beyond container boundaries, demo: _<http://codepen.io/tientm/pen/bVpyPO>_
+- _auto:_ adds a scrollbar as needed when content overflows, demo: _<http://codepen.io/tientm/pen/dYMEBz>_
+- _hidden:_ hides content that extends beyond the container, demo: _<http://codepen.io/tientm/pen/KdzLjj>_
+- _scroll:_ adds a scrollbar at all times, even if unneeded, demo: _<http://codepen.io/tientm/pen/JYXqgE>_
+
+## Positioning
+
+__Elements have a position value of static by default:__
+
+~~~
+position: static / relative / absolute / fixed;
+~~~
+
+- Using a value other than static causes an object to become a _positioned element._
+- Positioned elements may use the top, left, right, bottom properties for placement.
+
+__Relative positioning:__
+
+Renders in the normal fow, then shifted via positioning properties, demo: _<http://codepen.io/tientm/pen/KdzLOj>_
+
+__Absolute positioning:__
+
+Takes an element out of the normal fow for manual positioning, demo: _<http://codepen.io/tientm/pen/dYMBbz/>_
+
+__Fixed positioning:__
+
+Afxes an element to a specifc place in the window, where it will stay regardless of scrolling, demo: _<http://codepen.io/tientm/pen/garNOj>_
+
+## Z-Index
+
+__Manually adjusting overlap:__
+
+- No z-index or equal z-index = overlap determined by placement in DOM
+- Higher values appear above lower values
+- Elements must be positioned for z-index to take efect. Use relative if you're not interested in moving the object
+
+Demo: _<http://codepen.io/tientm/pen/YyqoPY>_
