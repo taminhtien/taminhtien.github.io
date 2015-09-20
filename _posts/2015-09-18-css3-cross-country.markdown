@@ -512,3 +512,55 @@ background-image: url(data:image/png;base64,iVBO...;
 ~~~
 
 `base64` method encodes images directly into CSS, HTML or JS. That allows us to not need to use sprites or include separate images.
+
+# Pseudo
+---
+
+## Pseudo Classes
+
+Allow you to conditionally select an element based on state or position:
+
+~~~
+.twitter:hover, .twitter:focus {
+  background-position: 0 -100px;
+}
+.github:hover, .github:focus {
+  background-position: -100px -100px;
+}
+~~~
+
+A selection of useful selectors:
+
+~~~
+:hover / :focus / :active / :visited
+:first-child / :last-child / :only-child
+:nth-child() / :nth-of-type()
+~~~
+
+E.g: _<http://codepen.io/tientm/pen/EVyKLa>_
+
+## Pseudo Elements
+
+Example:
+
+~~~
+<article>
+  <p>Coffee? Hah! Our cocoa is far better.</p>
+  <p>Visit from 4-5 for cocoa happy hour!</p>
+</article>
+
+article p:last-child:after {
+  content: '\2744';
+}
+~~~
+
+A selection of useful pseudo elements:
+
+~~~
+:before / :after IE8+
+:first-letter / :first-line
+~~~
+
+:before and :after effectively add two additional places per element on the page for styling
+
+Example of positioned elements: _<http://codepen.io/tientm/pen/qONZyN>_
