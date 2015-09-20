@@ -414,6 +414,7 @@ __Centering inline and inline-block elements:__ ```text-align:center```
 Example of collapsing margins: _<http://codepen.io/tientm/pen/YyqoaO>_
 
 Collapsing margins will not occur when one or more block element has:
+
 - Padding or border
 - Relative or absolute positioning
 - A foat left or right
