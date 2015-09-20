@@ -152,7 +152,7 @@ float: left / right / none;
 - Floated elements stack up to the parent edge, then move down to the next available edge.
 - Take care with elements that have differing heights - the first available edge isn't always below.
 
-Demo: *<http://codepen.io/tientm/pen/dYMqoa>*
+E.g: *<http://codepen.io/tientm/pen/dYMqoa>*
 
 # Clear Carving
 ---
@@ -161,8 +161,8 @@ Demo: *<http://codepen.io/tientm/pen/dYMqoa>*
 
 Clearing is necessary if:
 
-- Floated items can be taller than non-floated content, demo: *<http://codepen.io/tientm/pen/garBWG>*
-- All children are floating, demo: *<http://codepen.io/tientm/pen/avNRGd>*
+- Floated items can be taller than non-floated content, e.g: *<http://codepen.io/tientm/pen/garBWG>*
+- All children are floating, e.g: *<http://codepen.io/tientm/pen/avNRGd>*
 
 Common float-clearing methods:
 
@@ -170,13 +170,13 @@ Common float-clearing methods:
 clear: left / right / both;
 ~~~
 
-- Clear with subsequent element, demo: *<http://codepen.io/tientm/pen/jbqeKd>*
+- Clear with subsequent element, e.g: *<http://codepen.io/tientm/pen/jbqeKd>*
   - Requires sequence to stay intact - breaks if things move
   - Background / border do not extend
-- Manual clearing, demo: *<http://codepen.io/tientm/pen/epZPaN/>*
+- Manual clearing, e.g: *<http://codepen.io/tientm/pen/epZPaN/>*
   - Requires empty element
   - Might not be necessary later
-- The clearfix, demo: *<http://codepen.io/tientm/pen/EVKOYg>*
+- The clearfix, e.g: *<http://codepen.io/tientm/pen/EVKOYg>*
   - Originally developed by Tony Aslett
   - Redefined version by Nicholas Gallagher
   - When used on the parent, the children will be self-cleared
@@ -215,7 +215,7 @@ Selectors can be nested to override parent properties:
 
 **Dealing with specificity:**
 
-- ID has higher priority than Class, demo: *<http://codepen.io/tientm/pen/bVpQvb>*
+- ID has higher priority than Class, e.g: *<http://codepen.io/tientm/pen/bVpQvb>*
 
 ~~~
 <div id="content" class="featured">
@@ -245,7 +245,7 @@ p { color: #fff !important; }           // !!!
 #header { color: #444245; }             // 0, 1, 0, 0
 ~~~
 
-- ID and element selectors versus class, demo: *<http://codepen.io/tientm/pen/avNQEL>*
+- ID and element selectors versus class, e.g: *<http://codepen.io/tientm/pen/avNQEL>*
 
 ~~~
 <section id="content">
@@ -261,7 +261,7 @@ p { color: #fff !important; }           // !!!
 }
 ~~~
 
-- ID and element selectors versus !important, demo: <http://codepen.io/tientm/pen/xwVQMW>
+- ID and element selectors versus !important, e.g: <http://codepen.io/tientm/pen/xwVQMW>
 
 ~~~
 <section id="content">
@@ -277,7 +277,7 @@ p { color: #fff !important; }           // !!!
 }
 ~~~
 
-- ID and element selectors versus ID and class selectors, demo: <http://codepen.io/tientm/pen/bVpQJd>
+- ID and element selectors versus ID and class selectors, e.g: <http://codepen.io/tientm/pen/bVpQJd>
 
 ~~~
 <section id="content">
@@ -303,7 +303,7 @@ An imaginary diagram that outlines each DOM element:
 {: .center}
 ![](/img/dom.png)
 
-__Width:__ 
+__Width:__
 
 - Total calculated box width = content width + padding width + border width
 - When adapting a design, you'll need to calculate the content width
@@ -314,10 +314,10 @@ __The overflow property:__
 overflow: visible / auto / hidden / scroll;
 ~~~
 
-- _visible:_ the default value, which allows element content extend beyond container boundaries, demo: _<http://codepen.io/tientm/pen/bVpyPO>_
-- _auto:_ adds a scrollbar as needed when content overflows, demo: _<http://codepen.io/tientm/pen/dYMEBz>_
-- _hidden:_ hides content that extends beyond the container, demo: _<http://codepen.io/tientm/pen/KdzLjj>_
-- _scroll:_ adds a scrollbar at all times, even if unneeded, demo: _<http://codepen.io/tientm/pen/JYXqgE>_
+- _visible:_ the default value, which allows element content extend beyond container boundaries, e.g: _<http://codepen.io/tientm/pen/bVpyPO>_
+- _auto:_ adds a scrollbar as needed when content overflows, e.g: _<http://codepen.io/tientm/pen/dYMEBz>_
+- _hidden:_ hides content that extends beyond the container, e.g: _<http://codepen.io/tientm/pen/KdzLjj>_
+- _scroll:_ adds a scrollbar at all times, even if unneeded, e.g: _<http://codepen.io/tientm/pen/JYXqgE>_
 
 ## Positioning
 
@@ -332,15 +332,15 @@ position: static / relative / absolute / fixed;
 
 __Relative positioning:__
 
-Renders in the normal fow, then shifted via positioning properties, demo: _<http://codepen.io/tientm/pen/KdzLOj>_
+Renders in the normal fow, then shifted via positioning properties, e.g: _<http://codepen.io/tientm/pen/KdzLOj>_
 
 __Absolute positioning:__
 
-Takes an element out of the normal fow for manual positioning, demo: _<http://codepen.io/tientm/pen/dYMBbz/>_
+Takes an element out of the normal fow for manual positioning, e.g: _<http://codepen.io/tientm/pen/dYMBbz/>_
 
 __Fixed positioning:__
 
-Afxes an element to a specifc place in the window, where it will stay regardless of scrolling, demo: _<http://codepen.io/tientm/pen/garNOj>_
+Afxes an element to a specifc place in the window, where it will stay regardless of scrolling, e.g: _<http://codepen.io/tientm/pen/garNOj>_
 
 ## Z-Index
 
@@ -350,7 +350,7 @@ __Manually adjusting overlap:__
 - Higher values appear above lower values
 - Elements must be positioned for ```z-index``` to take efect. Use relative if you're not interested in moving the object
 
-Demo: _<http://codepen.io/tientm/pen/YyqoPY>_
+E.g: _<http://codepen.io/tientm/pen/YyqoPY>_
 
 # Grooming Your Code
 ---
@@ -405,3 +405,110 @@ __Centering a block-level element:__
 - ```margin: 0 auto;```
 
 __Centering inline and inline-block elements:__ ```text-align:center```
+
+# CSS Safety
+---
+
+## Protecting Your Layout
+
+Example of collapsing margins: _<http://codepen.io/tientm/pen/YyqoaO>_
+
+Collapsing margins will not occur when one or more block element has:
+- Padding or border
+- Relative or absolute positioning
+- A foat left or right
+
+Example of Non-collapsing margins: _<http://codepen.io/tientm/pen/XmdLoa>_
+
+## Specificity Problems
+
+Resets & normalization:
+- Eric Meyer's Reset CSS: _<http://meyerweb.com/eric/tools/css/reset/>_
+- Normalize.css: _<http://necolas.github.io/normalize.css/>_
+
+# Image Issues
+---
+
+## Image Use
+
+- Content should be marked up as inline images, e.g: _<http://codepen.io/tientm/pen/wKWajj>_
+- Layout elements should be defned as background images, e.g: _<http://codepen.io/tientm/pen/dYXoKN>_
+
+## Image Cropping
+
+- Resize images to a square < height and width of all of your images
+- Resize them server-side
+- Provide image-uploading instructions in your CMS
+
+E.g: _<http://codepen.io/tientm/pen/NGrqOO>_
+
+# Sprightly Slaloms
+---
+
+## Image Replacement
+
+Add descriptive text to image-replaced elements:
+
+~~~
+<a href="#" class="logo">Sven's Snowshoe Emporium</a>
+.logo {
+  background: url(logo.png);
+  display: block;
+  height: 100px;
+  width: 200px;
+  text-indent: -9999px; // Move the text out of the view port
+}
+~~~
+
+E.g: _<http://codepen.io/tientm/pen/XmKdMw>_
+
+# Sprites
+
+~~~
+<a href="#" class="logo">Sven's Snowshoe Emporium</a>
+
+.logo {
+  background: url(logo.png);
+  display: block;
+  height: 100px;
+  width: 200px;
+  text-indent: -9999px;
+}
+
+.logo:hover, .logo:focus {
+  background: url(hover.png); // Loading another image will add an extra HTTP request
+}
+~~~
+
+E.g: _<http://codepen.io/tientm/pen/zvBqwg>_
+
+__=> Sprites mean the combination images into one file and using `background-position` to get needed image.__
+
+- `background-position` will allow us to change orientation of our image inside of the element.
+- `background` property default is 0(x-axis) 0(y-axis).
+
+Recipe:
+
+~~~
+background-position: <x-axis change> <y-axis change>
+
+Note: Because background-position shifts image to (0, 0) location, therefore:
+- y < 0, shift up
+- y > 0, shift down
+~~~
+
+Advantages to the sprite approach:
+
+- Reduces number of HTTP image requests
+- Removes loading flash / need for pre-load
+
+`base64` encoding:
+
+- Direct embed images into your CSS
+- IE8+
+
+~~~
+background-image: url(data:image/png;base64,iVBO...;
+~~~
+
+`base64` method encodes images directly into CSS, HTML or JS. That allows us to not need to use sprites or include separate images.
