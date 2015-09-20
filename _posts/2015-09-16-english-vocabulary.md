@@ -12,6 +12,7 @@ header-img: "img/el.jpg"
 ||Words|Type|IPA|Meaning|
 |--|--|--|--|--|
 |C|Cramp|V, N|/kramp/|chuột rút|
+|C|Coincidence|N|/-ˌdens,kōˈinsədəns/|trùng hợp|
 |D|Detract|V|/diˈtrakt/|làm giảm|
 |D|Degrate|V|/diˈgrād/|làm suy giảm|
 |E|Emerge|V|/iˈmərj/|hiện ra|
@@ -27,12 +28,21 @@ header-img: "img/el.jpg"
 
 ||Words|Type|IPA|Meaning|
 |--|--|--|--|--|
+|B|Bully|V/Adj/N|/ˈbo͝olē/|bắt nạt/côn đồ/người hung bạo|
+|E|Eerie|Adj|/ˈi(ə)rē/|mê tín|
 |K|Fight|N|/fīt/|cuộc cãi vã|
+|R|Real estate||/iˈstāt/|bất động sản|
+|S|Sell for parts|||bán lẻ|
+|S|Selling store|||cửa hàng tạp hóa|
+|P|Piece of crap|||hư đốn|
 |T|Napkin|N||con nít|
 |T|Twinkie|N||bồ nhí|
 |T|To be something of an item|||đang qua lại với nhau|
+|T|s.b tell on s.b|||mách lẻo|
+|O|On behalf of everyone|||Thay mặt cho tất cả mọi người|
 |W|What a load of crap|||1 đống tào lao|
 |W|You wuss|||đồ thỏ đế|
+|V|Very freaky|||quái đản|
 
 ## Phrase V
 
@@ -65,3 +75,62 @@ header-img: "img/el.jpg"
 |come with||đi kèm với|The toy doesn't come with batteries. You have to buy them separately.|
 |come over|to come to a ​place, ​move from one ​place to another, or ​move towards someone|đến một địa điểm nhất định|Camille is coming over for dinner tonight.|
 |come off|become detached or be detachable from something|rời ra|When I tried to open the door, the knob came off in my hand and I was stuck in the room for more than two hours.|
+
+### Look
+
+|PV|Vietnamese meaning|
+|--|--|
+|Look after sb|chăm sóc, chăm non|
+|Look ahead|suy nghĩ về tương lai (sẽ có chuyện gì xảy ra)|
+|Look around/round sth|nhìn quanh|
+|Look around/round for sth|tìm kiếm cái gì đó ở nhiều nơi|
+|Look at sth|nhìn, điều tra|
+|Look back (on sth)|nghĩ về một điều gì đó trong quá khứ|
+|Look down on sb/sth|đánh giá thấp|
+|Look for sth|tìm kiếm|
+|Look forward to sth/doing sth|hi vọng, trông mong|
+|Look in (on sb)|ghé thăm|
+|Look into sth|nghiên cứu|
+|Look on|nhìn cái gì đó với tư cách, thái độ không liên quan|
+|Look on sb/sth as sb/sth|coi ai/ái gì như...|
+|Look out|cảnh báo ai đó có nguy hiểm đang đến|
+|Look through sth|xem qua|
+|Look through sb|ngó lơ|
+|Look up (from sth)|nhìn lên|
+|Look up sth|tra cứu|
+|Look up sb|liên lạc|
+|Look up to sb|ngưỡng mộ, kính trọng|
+
+GHI NHỚ NHỮNG TÍNH TỪ CÓ ĐUÔI LY
+|Adj|Meaning|
+|--|--|
+|Beastly|đáng kinh tởm|
+|Brotherly|như anh em|
+|Comely|duyên dáng|
+|Costly|đắt đỏ|
+|Cowardly|hèn nhát|
+|Friendly|thân thiện|
+|Ghastly|rùng rợn|
+|Ghostly|mờ ảo như ma|
+|Godly|sùng đạo|
+|Goodly|có duyên|
+|Holy|linh thiêng|
+|Homely|giản dị|
+|Humanly|trong phạm vi của con người|
+|Lively|sinh động|
+|Lonely|lẻ loi|
+|Lovely|đáng yêu|
+|Lowly|hèn mọn|
+|Manly|nam tính|
+|Masterly|tài giỏi|
+|Miserly|keo kiệt|
+|Scholarly|uyên bác|
+|Shapely|dáng đẹp|
+|Silly|ngớ ngẩn|
+|Timely|đúng lúc|
+|Ugly|xấu xí|
+|Ungainly|vụng về|
+|Unruly|ngỗ ngược|
+|Unsightly|khó coi|
+|Unseemly|không phù hợp|
+|Unworldly|thanh tao|
