@@ -8,16 +8,15 @@ header-img: "img/git.jpg"
 ---
 
 # Staging and Remotes
+---
 
 ## Git diff
----
 
 `git diff` shows unstaged differences since last commit.
 
 Use `git diff --staged` to view staged differences.
 
 ## Unstage
----
 
 Use `git reset HEAD <file>` to unstage.
 
@@ -26,12 +25,10 @@ Use `git reset HEAD <file>` to unstage.
 `git checkout -- <file>` blows away all changes since last commit.
 
 ## Skip tracking and commit
----
 
 `git commit -a -m "Message"` adds changes from all tracked files.
 
 ## Undoing a commit
----
 
 We forgot something on commit.
 
@@ -42,7 +39,6 @@ Maybe we forgot to add a file.
 `git commit --amend -m "New message"`. `--amend` adds new tracked changes to the last commit.
 
 ## Useful command
----
 
 |Commands|Meaning|
 |--|--|
@@ -54,7 +50,6 @@ Maybe we forgot to add a file.
 __Dont do these after pushing__
 
 ## Adding a remote
----
 
 > Origin refers canonical repository, our official repository that most of people use for their project.
 
@@ -67,7 +62,6 @@ __Dont do these after pushing__
 `git remote -v` shows all remotes.
 
 ## Pushing to remote
----
 
 `git push -u origin master`
 
@@ -75,12 +69,10 @@ __Dont do these after pushing__
 - `master`: local branch to push
 
 ## Pulling from remote
----
 
 `git pull`: pull down all changes from remote repository and sync up your local repository.
 
 ## Working with remotes
----
 
 |Commands|Meaning|
 |--|--|
@@ -91,9 +83,9 @@ __Dont do these after pushing__
 `-u` means that you don't have to specify the name and branch in the next pushing, just run `git push`.
 
 # Cloning and Branching
+---
 
 ## Cloning a repository
----
 
 ~~~
 $ git clone https://github.com/codeschool/git-real.git
@@ -115,7 +107,6 @@ Git Clone operation:
 3. Checks out initial branch (likely master).
 
 ## Branching
----
 
 Need to work on a feature that will take some time? Time to branching out.
 
@@ -123,13 +114,73 @@ Need to work on a feature that will take some time? Time to branching out.
 |--|--|
 |`git branch <name>`|Create new branch. HEAD still on master branch|
 |`git checkout <name>`|Switch to branch `<name>`. HEAD is now on `<name>` branch|
+|`git checkout -b <name>`|Create and switch to branch `<name>`|
 |`git merge <name>`|Merge `<name>` branch into another|
 |`git branch -d <name>`|Safety remove branch `<name>`|
 
 ### Fast-forward merge
 
-Fast-forward merge will be used on condition that only one branch has commits. If other branch also has commits we wont use fast-forward. Fast-forward is a easy way for git to merge 2 branches. Because there are nothing new in the other branch.
+Fast-forward merge will be used on condition that there is only one branch has commits. If other branch also has commits we wont use fast-forward. Fast-forward is a easy way for git to merge 2 branches. Because there are nothing new in the other branch.
 
 ### Recursive merge
 
 If 2 branches have new commits after branching out, we will use recursive merge due to the existence of conflicts.
+
+# Collaboration Basics
+---
+
+## Git push rejected
+
+__Situation:__ Jane committed some new files (product.rb and store.rb) and pushed them to Github. Gregg updated, committed his README file and try to push it to Github but he failed. What happened?
+
+~~~
+gregg $ git push
+To https://github.com/codeschool/git-real.git
+! [rejected] master -> master (non-fast-forward)  # Cannot write over Jane’s commit
+error: failed to push some refs to 'https://github.com/codeschool/git-real.git'
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Merge the remote changes (e.g. 'git pull')
+hint: before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+$ git pull # Uses git pull to get Jane code before push
+$ git push
+...
+...
+Success!
+~~~
+
+## What does `git pull` do?
+
+1. Fetches (or Sync) our local repository with the remote one. It corresponds with `git fetch`. Fetch doesn't actually update any of our local code. It fetches master branch from github to origin/master branch on our local repo.
+2. After that it merges the origin/master with master branch. `git merge origin/master`.
+
+## Merge conflicts
+
+__Situation:__ Both Jane and Gregg updated and committed on the same files. Jane pushed her commit to Github. Gregg pulled down the Github code and he got the conflicts. So, what happened?
+
+~~~
+gregg $ git pull
+remote: Counting objects: 5, done.
+remote: Compressing objects: 100% (1/1), done.
+remote: Total 3 (delta 1), reused 3 (delta 1)
+Unpacking objects: 100% (3/3), done.
+From https://github.com/Gregg/git-real
+ ee47baa..4e76d35 master -> origin/master
+Auto-merging README.txt
+CONFLICT (content): Merge conflict in README.txt
+Automatic merge failed; fix conflicts and then commit the result.
+~~~
+
+You need to edit conflict files and correct they.
+
+~~~
+here is my readme
+<<<<<<< HEAD # Our local version
+the cake is a lie.
+=======
+the cake is telling the truth! # Jane's version
+>>>>>>>
+4e76d3542a7eee02ec516a47600002a90a4e4b48
+~~~
+
+After correcting, Gregg might push his code.
