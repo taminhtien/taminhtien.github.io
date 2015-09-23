@@ -42,10 +42,10 @@ Maybe we forgot to add a file.
 
 |Commands|Meaning|
 |--|--|
-|`git reset --soft HEAD^`|Undo last commit, put changes into staging|
-|`git commit --amend -m "New message"`|Change the last commit|
-|`git reset --hard HEAD^`|Undo last commit, blow away all changes|
-|`git reset --hard HEAD^^`|Under last 2 commits and all changes|
+|`git reset --soft HEAD^`|Undoes last commit, put changes into staging|
+|`git commit --amend -m "New message"`|Changes the last commit|
+|`git reset --hard HEAD^`|Undoes last commit, blow away all changes|
+|`git reset --hard HEAD^^`|Undoes last 2 commits and all changes|
 
 __Dont do these after pushing__
 
@@ -70,15 +70,15 @@ __Dont do these after pushing__
 
 ## Pulling from remote
 
-`git pull`: pull down all changes from remote repository and sync up your local repository.
+`git pull` pulls down all changes from remote repository and sync up your local repository.
 
 ## Working with remotes
 
 |Commands|Meaning|
 |--|--|
-|`git remote add <name> <address>`|Add new remote|
-|`git remote rm <name>`|Remove remote|
-|`git push -u <name> <branch>`|Push to remote|
+|`git remote add <name> <address>`|Adds new remote|
+|`git remote rm <name>`|Removes remote|
+|`git push -u <name> <branch>`|Pushes to remote|
 
 `-u` means that you don't have to specify the name and branch in the next pushing, just run `git push`.
 
@@ -112,10 +112,10 @@ Need to work on a feature that will take some time? Time to branching out.
 
 |Commands|Meaning|
 |--|--|
-|`git branch <name>`|Create new branch. HEAD still on master branch|
-|`git checkout <name>`|Switch to branch `<name>`. HEAD is now on `<name>` branch|
-|`git checkout -b <name>`|Create and switch to branch `<name>`|
-|`git merge <name>`|Merge `<name>` branch into another|
+|`git branch <name>`|Creates new branch. HEAD still on master branch|
+|`git checkout <name>`|Switches to branch `<name>`. HEAD is now on `<name>` branch|
+|`git checkout -b <name>`|Creates and switch to branch `<name>`|
+|`git merge <name>`|Merges `<name>` branch into another|
 |`git branch -d <name>`|Safety remove branch `<name>`|
 
 ### Fast-forward merge
@@ -184,3 +184,33 @@ the cake is telling the truth! # Jane's version
 ~~~
 
 After correcting, Gregg might push his code.
+
+# Remote branches and Tags
+---
+
+Why create a remote branch?
+
+- When you need other people to work on your branch.
+- Any branch that will last more than a day
+
+|Commands|Meaning|
+|--|--|
+|`git checkout -b <shopping_cart>`|Creates and switches to new branch|
+|`git push <origin> <shopping_cart>`|Links local branch to remote branch (tracking)|
+|`git fetch`|Fetches new branches|
+|`git branch`|Lists all local branches|
+|`git branch -r`|Lists all remote branches|
+|` git remote show <origin>`|Shows all remote branches and local branches|
+|` git push <origin> :<shopping_cart>`|Deletes remote branch|
+|`git branch -d <shopping_cart>`|Deletes local branch|
+|`git branch -D <shopping_cart>`|Forces to delete local branch|
+|`git remote prune <origin>`|Cleans up deleted remote branches|
+
+A tag is a reference to a commit (used mostly for release versioning).
+
+|Commands|Meaning|
+|--|--|
+|`git tag`|Lists all tags|
+|`git checkout v0.0.1`|Checks out code at commit|
+|`git tag -a <v0.0.3> -m <"version 0.0.3">`|Adds a new tag|
+|`git push --tags`|Pushes new tag|
