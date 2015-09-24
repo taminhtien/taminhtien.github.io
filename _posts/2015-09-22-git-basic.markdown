@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "Git commands"
-subtitle:   "Tổng hợp git commands"
+title:      "Git Basic"
+subtitle:   "Some notes of Git Real courses on Codeschool.com"
 date:       2015-09-22 12:00:00
 author:     "tientm"
 header-img: "img/git.jpg"
