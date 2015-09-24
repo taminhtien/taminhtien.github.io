@@ -214,3 +214,28 @@ A tag is a reference to a commit (used mostly for release versioning).
 |`git checkout v0.0.1`|Checks out code at commit|
 |`git tag -a <v0.0.3> -m <"version 0.0.3">`|Adds a new tag|
 |`git push --tags`|Pushes new tag|
+
+# Rebase
+---
+
+Merge commits feel useless and it makes history be polluted.
+
+`git rebase`
+
+1. Move all changes to master which are not in origin/master to a temporary area.
+2. Run all origin/master commits.
+3. Run all commits in the temporary area, one at a time.
+
+## Local branch rebase on the condition that there are no conflicts
+
+First, rebase master on another branch. Second, switch to master branch and merge the other branch.
+
+~~~
+$ git checkout admin
+Switched to branch 'admin'
+$ git rebase master
+~~~
+
+### Rebase with conflicts
+
+Git will notice we about the conflicts, you must to fix the conflicts first. After that, run `git rebase --continue` to continue rebase. `git rebase --skip` to skip. `git rebase --abort` to abort.
