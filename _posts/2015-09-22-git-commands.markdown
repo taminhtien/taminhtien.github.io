@@ -239,3 +239,210 @@ $ git rebase master
 ### Rebase with conflicts
 
 Git will notice we about the conflicts, you must to fix the conflicts first. After that, run `git rebase --continue` to continue rebase. `git rebase --skip` to skip. `git rebase --abort` to abort.
+
+# History and Configuration
+---
+
+## `git log`
+
+|Commands|Meaning|
+|--|--|
+|`git log`|Views the log|
+|` git config --global color.ui true`|Enables UI colors|
+|`git log --pretty=oneline`|Output: `08f202691c67abd12eb886b587ac7b26d51005c7 Update index`|
+|`git log --pretty=format:"%h %ad- %s [%an]"`|Fomats log|
+
+|Placeholder|Replaced with|
+|--|--|
+|%ad|author date|
+|%an|author name|
+|%h|SHA hash|
+|%s|subject|
+|%d |ref names|
+
+~~~
+$ git log --oneline -p
+PATCH
+3ea7f70 I'm telling you, it's 'Octopi'.
+diff --git a/index.html b/index.html
+index 021a54e..640d66d 100644
+--- a/index.html
++++ b/index.html
+@@ -8,7 +8,7 @@
+<nav>
+ <ul>
+ <li><a href="cat.html">Cats</a></li>
+- <li><a href="octopus.html">Octopuses</a></li>
++ <li><a href="octopi.html">Octopi</a></li>
+~~~
+
+~~~
+git log --oneline --stat
+STATS
+LEVEL 7 — HISTORY & CONFIGURATION
+3ea7f70 I'm telling you, it's 'Octopi'.
+ index.html | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+96776a4 Add index.
+ index.html | 30 +++++++++++++++---------------
+ 1 file changed, 15 insertions(+), 15 deletions(-)
+~~~
+
+~~~
+$ git log --oneline --graph
+* 30b1f8f Merge branch 'bird' into master
+|\
+| * 8b8f950 Revise silly hipster name for bird aisle.
+* | 915f242 Add emphasis.
+|/
+* 69728cd Update index descriptions.
+~~~
+
+## Date ranges
+
+~~~
+$ git log --until=1.minute.ago  # until
+$ git log --since=1.day.ago     # since (days)
+$ git log --since=1.hour.ago    # since (hours)
+$ git log --since=1.month.ago --until=2.weeks.ago   # since & until (relative)
+$ git log --since=2000-01-01 --until=2012-12-21     # since & until (absolute)
+~~~
+
+## git diff
+
+~~~
+$ git diff
+diff --git a/index.html b/index.html
+@@ -8,7 +8,10 @@
+ <nav>
+ <ul>
+ <li><a href="cat.html">Cats</a></li>
+- <li><a href="octopus.html">Octopuses</a></li>   # Removed line
++ <li><a href="birds.html">Birds</a></li>         # Added line
++ <li><a href="hamsters.html">Hamsters</a></li>
+ </ul>
+ </nav>
+</body>
+$
+~~~
+
+`$ git diff HEAD`: diff between last commit & current state, includes both staged and unstaged files.
+
+~~~
+$ git diff HEAD
+diff --git a/index.html b/index.html
+index 021a54e..1ceb9d6 100644
+@@ -8,7 +8,10 @@
+<ul>
+ <li><a href="cat.html">Cats</a></li>
+...
+diff --git a/octopus.html b/octopus.html
+index 55806be..ce8a2c7 100644
+@@ -2,6 +2,6 @@
+<html lang="en">
+...
+$
+~~~
+
+## Earlier commits
+
+~~~
+$ git diff HEAD^                                        # parent of latest commit
+$ git diff HEAD^^                                       # grandparent of latest commit
+$ git diff HEAD~5                                       # five commits ago
+$ git diff HEAD^..HEAD                                  # second most recent commit vs. most recent
+$ git diff f5a6sdfsfsdfsdfff9..4sdsdfsdfsdfsdffb063f    # range of SHAs
+$ git log --oneline
+257256c cat
+4fb063f Add index
+f5a6ff9 Add catalog pages
+$ git diff 4fb063f..f5a6ff9                             # range of abbreviated SHAs
+$ git diff master bird                                  # diff between two branches
+$ git diff --since=1.week.ago --until=1.minute.ago      # time-based diff
+~~~
+
+## Blame
+
+~~~
+$ git blame index.html --date short
+...
+96776a42 (Gregg 2012-06-29 9) <ul>
+96776a42 (Gregg 2012-06-29 10) <li>Cats</li>
+3ea7f709 (Jane 2012-06-30 11) <li>Octopi</li>
+96776a42 (Gregg 2012-06-29 12) </ul>
+~~~
+
+## Excluding files
+
+~~~
+.git/info/exclude
+experiments/
+
+OR
+
+.gitignore
+logs/*.log      # will ignore all .log files inside the logs directory
+~~~
+
+## Exclude patterns
+
+~~~
+tutorial.mp4    # exclude this file
+*.mp4           # exclude all .mp4 files
+experiments/    # exclude directory
+logs/*.log      # exclude .log files in logs directory
+~~~
+
+## Removing files
+
+~~~
+$ git rm README.txt
+~~~
+
+## Untracking files
+
+~~~
+$ git rm --cached development.log # what if you’re already tracking log files?
+$ git status
+
+$ git status
+# Changes to be committed:
+#
+# deleted: development.log        # not deleted from the local file system, only from Git
+~~~
+
+## Local config
+
+~~~
+$ git config user.email "spamme@example.com"  # sets email for current repo
+
+$ git config --list
+user.name=Gregg
+user.email=gregg@codeschool.com
+color.ui=true
+core.editor=mate -w
+user.email=spamme@example.com                 # will override the previous one
+
+$ git config user.email                       # the global config loaded first, then repo config
+spamme@example.com
+~~~
+
+## Aliases
+
+`git config alias.<name> <command>`
+
+~~~
+$ git config --global alias.mylog \
+"log --pretty=format:'%h %s [%an]' --graph"
+
+$ git config --global alias.lol \
+"log --graph --decorate --pretty=oneline --abbrev-commit --all"
+
+$ git mylog
+* 19f735c Merge branch 'admin' [Jane]
+|\
+| * 7980856 Add user admin [Jane]
+* | 5c9ed90 Add dashboard. [Jane]
+|/
+* ab48a3f Create quantum cat. [Jane]
+~~~
