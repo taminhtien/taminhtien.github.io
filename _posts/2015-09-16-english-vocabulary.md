@@ -102,6 +102,7 @@ header-img: "img/el.jpg"
 |Look up to sb|ngưỡng mộ, kính trọng|
 
 GHI NHỚ NHỮNG TÍNH TỪ CÓ ĐUÔI LY
+
 |Adj|Meaning|
 |--|--|
 |Beastly|đáng kinh tởm|
@@ -134,3 +135,76 @@ GHI NHỚ NHỮNG TÍNH TỪ CÓ ĐUÔI LY
 |Unsightly|khó coi|
 |Unseemly|không phù hợp|
 |Unworldly|thanh tao|
+
+TỔNG HỢP 70 PHRASAL VERB THÔNG DỤNG NHẤT
+
+|PV|Meaning|
+|--|--|
+|Beat one’s self up|tự trách mình (khi dùng, thay one's self bằng mysel, yourself, himself, herself...)|
+|Break down|bị hư|
+|Break up with s.o|chia tay người yêu, cắt đứt quan hệ tình cảm với ai đó|
+|Break in|đột nhập vào nhà|
+|Bring s.th up|đề cập chuyện gì đó|
+|Bring s.o up|nuôi nấng (con cái)|
+|Brush up on st|ôn lại|
+|Call for st|cần cái gì đó|
+|Call for sb|kêu người nào đó, cho gọi ai đó, yêu cầu gặp ai đó|
+|Carry out|thực hiện (kế hoạch)|
+|Catch up with sb|theo kịp ai đó|
+|Check in|làm thủ tục vào khách sạn|
+|Check out|làm thủ tục ra khách sạn|
+|Check st out|tìm hiểu, khám phá cái gì đó|
+|Clean st up|lau chùi|
+|Come across as|có vẻ (chủ ngữ là người)|
+|Come off|tróc ra, sút ra|
+|Come up against s.th|đối mặt với cái gì đó|
+|Come up with|nghĩ ra|
+|Cook up a story|bịa đặt ra 1 câu chuyện|
+|Cool down|làm mát đi, bớt nóng, bình tĩnh lại (chủ ngữ có thể là người hoặc vật)|
+|Count on sb|tin cậy vào người nào đó|
+|Cut down on st|cắt giảm cái gì đó|
+|Cut off|cắt lìa, cắt trợ giúp tài chính|
+|Do away with st|bỏ cái gì đó đi không sử dụng cái gì đó|
+|Do without st|chấp nhận không có cái gì đó|
+|Dress up|ăn mặc đẹp|
+|Drop by|ghé qua|
+|Drop sb off|thả ai xuống xe|
+|End up = wind up|có kết cục|
+|Figure out|suy ra|
+|Find out|tìm ra|
+|Get along/get along with sb|hợp nhau/hợp với ai|
+|Get in|đi vào|
+|Get off|xuống xe|
+|Get on with sb|hòa hợp, thuận với ai đó|
+|Get out|cút ra ngoài|
+|Get rid of st|bỏ cái gì đó|
+|Get up|thức dậy|
+|Give up st|từ bỏ cái gì đó|
+|Go around|đi vòng vòng|
+|Go down|giảm, đi xuống|
+|Go off|nổ (súng, bom), reo (chuông)|
+|Go on|tiếp tục|
+|Go out|đi ra ngoài, đi chơi|
+|Go up|tăng, đi lên|
+|Grow up|lớn lên|
+|Help s.o out|giúp đỡ ai đó|
+|Hold on|đợi tí|
+|Keep on doing st|tiếp tục làm gì đó|
+|Keep up st|hãy tiếp tục phát huy|
+|Let s.o down|làm ai đó thất vọng|
+|Look after sb|chăm sóc ai đó|
+|Look around|nhìn xung quanh|
+|Look at st|nhìn cái gì đó|
+|Look down on sb|khinh thường ai đó|
+|Look for sb/st|tìm kiếm ai đó/ cái gì đó|
+|Look forward to st/Look forward to doing st|mong mỏi tới sự kiện nào đó|
+|Look into st|nghiên cứu cái gì đó, xem xét cái gì đó|
+|Look st up|tra nghĩa của cái từ gì đó|
+|Look up to sb|kính trọng, ngưỡng mộ ai đó|
+|Make st up|chế ra, bịa đặt ra cái gì đó|
+|Make up one’s mind|quyết định|
+|Move on to st|chuyển tiếp sang cái gì đó|
+|Pick sb up|đón ai đó|
+|Pick st up|lượm cái gì đó lên|
+|Put sb down|hạ thấp ai đó|
+|Put sb off|làm ai đó mất hứng, không vui|
