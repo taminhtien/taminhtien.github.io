@@ -13,7 +13,6 @@ header-img: "img/ruby.jpg"
 ---
 
 ## Blocks
----
 
 A Ruby block is just a bit of code that can be executed. Block syntax uses either ```do```..```end``` or curly braces (```{}```), like so:
 
@@ -32,7 +31,6 @@ Blocks can be combined with methods like ```.each``` and ```.times``` to execute
 Why do some methods accept a block and others don't? It's because methods that accept blocks have a way of transferring control from the calling method to the block and back again. We can build this into the methods we define by using the yield keyword.
 
 ## Proc
----
 
 Remember when we told you that everything is an object in Ruby? Well, we sort of fibbed. Blocks are not objects, and this is one of the very few exceptions to the "everything is an object" rule in Ruby.
 
@@ -69,7 +67,6 @@ Why bother saving our blocks as procs? There are two main advantages:
 - Unlike blocks, procs can be called over and over without rewriting them. This prevents you from having to retype the contents of your block every time you need to execute a particular bit of code.
 
 ## Lambda
----
 
 Like procs, lambdas are objects. The similarities don't stop there: with the exception of a bit of syntax and a few behavioral quirks, lambdas are identical to procs.
 
@@ -115,7 +112,7 @@ All this talk of blocks, procs, and lambdas might have your head spinning. Let's
 ---
 
 ## What's a symbol?
---- 
+
 
 You can think of a Ruby symbol as a sort of name. It's important to remember that symbols aren't strings:
 
