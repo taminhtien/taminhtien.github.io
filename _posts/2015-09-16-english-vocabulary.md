@@ -31,6 +31,7 @@ header-img: "img/el.jpg"
 |B|Bully|V/Adj/N|/ˈbo͝olē/|bắt nạt/côn đồ/người hung bạo|
 |E|Eerie|Adj|/ˈi(ə)rē/|mê tín|
 |K|Fight|N|/fīt/|cuộc cãi vã|
+|N|Nod off|V||Ngủ gật|
 |R|Real estate||/iˈstāt/|bất động sản|
 |S|Sell for parts|||bán lẻ|
 |S|Selling store|||cửa hàng tạp hóa|
