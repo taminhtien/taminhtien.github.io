@@ -147,3 +147,14 @@ Symbols make good hash keys for a few reasons:
 - They're immutable, meaning they can't be changed once they're created;
 - Only one copy of any symbol exists at a given time, so they save memory;
 - Symbol-as-keys are faster than strings-as-keys because of the above two reasons.
+
+# Modules
+---
+
+## What's a Module?
+
+You can think of a module as a toolbox that contains a set methods and constants. There are lots and lots of Ruby tools you might want to use, but it would clutter the interpreter to keep them around all the time. For that reason, we keep a bunch of them in modules and only pull in those module toolboxes when we need the constants and methods inside!
+
+**You can think of modules as being very much like classes, only modules can't create instances and can't have subclasses. They're just used to store things!**
+
+One of the main purposes of modules is to separate methods and constants into named spaces. This is called (conveniently enough) namespacing, and it's how Ruby doesn't confuse Math::PI and Circle::PI.
