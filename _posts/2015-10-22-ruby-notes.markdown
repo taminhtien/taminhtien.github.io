@@ -2,7 +2,7 @@
 layout:     post
 title:      "Ruby notes"
 subtitle:   "Some concepts in Ruby"
-date:       2015-09-22 12:00:00
+date:       2015-10-22 12:00:00
 author:     "tientm"
 header-img: "img/ruby.jpg"
 ---
