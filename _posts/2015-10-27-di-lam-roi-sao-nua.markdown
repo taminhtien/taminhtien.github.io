@@ -11,8 +11,8 @@ Tháng 10 này đúng là một tháng may mắn. Nộp đơn xin việc 3 nơi 
 
 Những điều cần làm:
 
-- Giảm thời gian online facebook (bắt đầu chặn fb khi về nhà)
-- Lên lịch làm việc cho bản thân (sử dụng Wunderlist)
+- Giảm thời gian online facebook
+- Lên lịch làm việc cho bản thân
 - Hằng ngày dành 2 tiếng để học tiếng Anh
 - Tham gia clb tiếng Anh
 - Tham gia nhiều hơn vào các hoạt động meetup
