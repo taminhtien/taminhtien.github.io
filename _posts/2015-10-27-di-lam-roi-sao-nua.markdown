@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "Đi làm rồi sao nữa"
-subtitle:   "Một vài trăn trở sau khi xin được việc làm"
+title:      "Never stop trying"
+subtitle:   "Some thoughts after getting a first job"
 date:       2015-10-27 12:00:00
 author:     "tientm"
 header-img: "img/working.jpg"
