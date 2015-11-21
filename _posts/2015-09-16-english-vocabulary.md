@@ -9,19 +9,33 @@ header-img: "img/el.jpg"
 
 ## Vocabulary
 belief: (n) niềm tin
+
 tofu cake: tàu hủ thúi
+
 wise: (adj) khôn
+
 ambush: (v) mai phục
+
 wrap: (n) khăn choàng
+
 switch: (v) chia, chia bánh
+
 mealy: (adj) nhiều bột
+
 blood: (adj) máu mủ, (oo = âm â)
+
 broad-back: hai lưng
+
 protest (n): sự phản đối, sự phản kháng
+
 reception: lễ tiếp khách
+
 tempt: (v) cám dỗ
+
 tempted: (adj) cám dỗ
+
 terrible: (adj) tệ
+
 horrible: (adj) tệ hại
 
 
